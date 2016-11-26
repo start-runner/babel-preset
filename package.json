@@ -1,0 +1,23 @@
+{
+  "name": "babel-preset-start",
+  "version": "0.1.0",
+  "description": "Babel preset for Start",
+  "keywords": [
+    "start",
+    "babel",
+    "babel-preset"
+  ],
+  "homepage": "https://github.com/start-runner/babel-preset",
+  "repository": "start-runner/babel-preset",
+  "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-preset-es2015-node4": "^2.1.0"
+  },
+  "license": "MIT"
+}
