@@ -16,7 +16,7 @@
   "main": "index.js",
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.1",
     "babel-preset-es2015-node4": "^2.1.0"
   },
   "license": "MIT"
