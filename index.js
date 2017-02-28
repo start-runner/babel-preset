@@ -1,7 +1,10 @@
 module.exports = {
   plugins: [].concat(
-    require('babel-preset-es2015-node4').plugins,
-    require('babel-plugin-transform-object-rest-spread'),
-    require('babel-plugin-add-module-exports')
+    require('babel-preset-env').default(null, {
+      targets: {
+        node: 4
+      }
+    }).plugins,
+    require('babel-plugin-transform-object-rest-spread')
   )
 };
